@@ -7,6 +7,9 @@ package KB2
  * @description lambda
  */
 fun main() {
+    /*
+    * 自动推断
+    * */
     val addResult = { num1: Int, num2: Int ->
         "两数相加结果   ：  ${num1 + num2}"
     }
