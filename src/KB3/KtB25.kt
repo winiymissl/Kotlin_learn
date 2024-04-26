@@ -9,7 +9,12 @@ package KB3
  * 返回是调用者的内置函数，多用于链式调用，给对象赋值，android ：使用recyclerview
  * 返回是执行结果的多用于进行一些判断之类的东西
  *
- * let 更适合用于在对象不为 null 时执行操作，而 run 则更适合用于在对象上执行操作，并返回结果
+ * let 更适合用于在对象不为 null 时执行操作，而 run 则更适合用于在对象上执行操作，并返回结果、
+ *
+ * 返回值为本身的：
+ * apply（this），also（it），takeIf(根据情况)，takeUnless(根据情况)
+ * 返回最后一行结果的
+ * let，with，run
  */
 fun main() {
     /**
