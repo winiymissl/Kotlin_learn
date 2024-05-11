@@ -1,7 +1,5 @@
 package 学生管理系统.teacher
 
-import 学生管理系统.teacher.Teachers.*
-
 /**
  * @Description
  * @Author winiymissl

@@ -1,6 +1,5 @@
 package 学生管理系统.student
 
-import 学生管理系统.CheckScores
 import 学生管理系统.teacher.Teacher
 
 /**
@@ -16,11 +15,15 @@ class Student constructor(
     var english: Float,
     var stuClass: Int,
     var teacher: Teacher
-) : CheckScores {
-
+) : AbsStudent() {
+    fun getSumScore(): Float {
+        return chinese + math + english
+    }
     override fun printScore() =
         println(" $name  $age 岁  班级 : $stuClass  chinese : $chinese   math : $math english : $english")
-
+    fun getRank() {
+        teacher
+    }
 
     override fun toString(): String {
         return "Student(name='$name', age=$age, chinese=$chinese, math=$math, english=$english, stuClass=$stuClass, teacher=$teacher)"
