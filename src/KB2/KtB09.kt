@@ -21,6 +21,9 @@ fun main() {
      * */
     //函数的声明
     val methodAction: () -> String
+    val func: () -> String = {
+        "man"
+    }
     //第二步 对上面函数的实现
     methodAction = {
         val inputValue = 999/*
