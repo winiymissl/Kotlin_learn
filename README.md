@@ -1,1 +1,1 @@
-- [ ] 一个kotlin学生管理系统，熟练kotlin语法
+- [x] 一个kotlin学生管理系统，熟练kotlin语法
